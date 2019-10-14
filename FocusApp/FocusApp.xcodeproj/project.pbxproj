@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493EF6AD2353C5BE00058590 /* ExtensionVehicleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493EF6AC2353C5BE00058590 /* ExtensionVehicleTableViewController.swift */; };
+		4954E30B2353C17B005DCF1B /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954E30A2353C17B005DCF1B /* Vehicle.swift */; };
+		4954E3102353C2F9005DCF1B /* VehicleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954E30F2353C2F9005DCF1B /* VehicleTableViewController.swift */; };
+		49777BC92354894600BF0C19 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49777BC82354894600BF0C19 /* StoreService.swift */; };
 		49AEBD1F23538A570019F942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEBD1E23538A570019F942 /* AppDelegate.swift */; };
 		49AEBD2123538A570019F942 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEBD2023538A570019F942 /* SceneDelegate.swift */; };
-		49AEBD2323538A570019F942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEBD2223538A570019F942 /* ViewController.swift */; };
 		49AEBD2623538A570019F942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AEBD2423538A570019F942 /* Main.storyboard */; };
 		49AEBD2823538A580019F942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AEBD2723538A580019F942 /* Assets.xcassets */; };
 		49AEBD2B23538A580019F942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AEBD2923538A580019F942 /* LaunchScreen.storyboard */; };
+		49F2501823549F6100956EC5 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2501723549F6100956EC5 /* VehicleTableViewCell.swift */; };
+		49F2501B2354A4B000956EC5 /* VehicleEditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2501A2354A4B000956EC5 /* VehicleEditInfoViewController.swift */; };
+		A7583068A91D67316613E33D /* Pods_FocusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F65551EFC7A41FA8CDEA4D5 /* Pods_FocusApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		493EF6AC2353C5BE00058590 /* ExtensionVehicleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionVehicleTableViewController.swift; sourceTree = "<group>"; };
+		4954E30A2353C17B005DCF1B /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		4954E30F2353C2F9005DCF1B /* VehicleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewController.swift; sourceTree = "<group>"; };
+		49777BC82354894600BF0C19 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
 		49AEBD1B23538A570019F942 /* FocusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AEBD1E23538A570019F942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49AEBD2023538A570019F942 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49AEBD2223538A570019F942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49AEBD2523538A570019F942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49AEBD2723538A580019F942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49AEBD2A23538A580019F942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49AEBD2C23538A580019F942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F2501723549F6100956EC5 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		49F2501A2354A4B000956EC5 /* VehicleEditInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEditInfoViewController.swift; sourceTree = "<group>"; };
+		7F65551EFC7A41FA8CDEA4D5 /* Pods_FocusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DF46BDC87C1CE7DE47D2E3 /* Pods-FocusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusApp.release.xcconfig"; path = "Target Support Files/Pods-FocusApp/Pods-FocusApp.release.xcconfig"; sourceTree = "<group>"; };
+		C80A1FC999CE8A178973A343 /* Pods-FocusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusApp.debug.xcconfig"; path = "Target Support Files/Pods-FocusApp/Pods-FocusApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7583068A91D67316613E33D /* Pods_FocusApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4954E3092353C15F005DCF1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4954E30A2353C17B005DCF1B /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4954E30C2353C2B7005DCF1B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49F250192354A49400956EC5 /* VehicleEditInfoViewController */,
+				4954E3112353C33F005DCF1B /* VehicleTableViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4954E30E2353C2C6005DCF1B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				49AEBD2423538A570019F942 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		4954E3112353C33F005DCF1B /* VehicleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4954E30F2353C2F9005DCF1B /* VehicleTableViewController.swift */,
+				493EF6AC2353C5BE00058590 /* ExtensionVehicleTableViewController.swift */,
+			);
+			path = VehicleTableViewController;
+			sourceTree = "<group>";
+		};
+		49777BC62354893200BF0C19 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49777BC72354893900BF0C19 /* StoreService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49777BC72354893900BF0C19 /* StoreService */ = {
+			isa = PBXGroup;
+			children = (
+				49777BC82354894600BF0C19 /* StoreService.swift */,
+			);
+			path = StoreService;
+			sourceTree = "<group>";
+		};
 		49AEBD1223538A570019F942 = {
 			isa = PBXGroup;
 			children = (
 				49AEBD1D23538A570019F942 /* FocusApp */,
 				49AEBD1C23538A570019F942 /* Products */,
+				A925C7F0A3C134629B2ABC20 /* Pods */,
+				D87A246B827B8D4411691119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +123,11 @@
 		49AEBD1D23538A570019F942 /* FocusApp */ = {
 			isa = PBXGroup;
 			children = (
-				49AEBD2223538A570019F942 /* ViewController.swift */,
-				49AEBD2423538A570019F942 /* Main.storyboard */,
+				49F2501523549F2700956EC5 /* Views */,
+				49777BC62354893200BF0C19 /* Services */,
+				4954E30E2353C2C6005DCF1B /* StoryBoards */,
+				4954E30C2353C2B7005DCF1B /* ViewControllers */,
+				4954E3092353C15F005DCF1B /* Model */,
 				49AEBD3223538A690019F942 /* Other */,
 			);
 			path = FocusApp;
@@ -99,6 +169,47 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		49F2501523549F2700956EC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49F2501623549F2E00956EC5 /* VehicleTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49F2501623549F2E00956EC5 /* VehicleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				49F2501723549F6100956EC5 /* VehicleTableViewCell.swift */,
+			);
+			path = VehicleTableViewCell;
+			sourceTree = "<group>";
+		};
+		49F250192354A49400956EC5 /* VehicleEditInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49F2501A2354A4B000956EC5 /* VehicleEditInfoViewController.swift */,
+			);
+			path = VehicleEditInfoViewController;
+			sourceTree = "<group>";
+		};
+		A925C7F0A3C134629B2ABC20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C80A1FC999CE8A178973A343 /* Pods-FocusApp.debug.xcconfig */,
+				A5DF46BDC87C1CE7DE47D2E3 /* Pods-FocusApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D87A246B827B8D4411691119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F65551EFC7A41FA8CDEA4D5 /* Pods_FocusApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AEBD2F23538A580019F942 /* Build configuration list for PBXNativeTarget "FocusApp" */;
 			buildPhases = (
+				FF10121C53B2C28707B2C169 /* [CP] Check Pods Manifest.lock */,
 				49AEBD1723538A570019F942 /* Sources */,
 				49AEBD1823538A570019F942 /* Frameworks */,
 				49AEBD1923538A570019F942 /* Resources */,
+				5FE0B0A04407A76E9B10A66C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,14 +278,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FE0B0A04407A76E9B10A66C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocusApp/Pods-FocusApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocusApp/Pods-FocusApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FocusApp/Pods-FocusApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF10121C53B2C28707B2C169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49AEBD1723538A570019F942 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49AEBD2323538A570019F942 /* ViewController.swift in Sources */,
+				4954E3102353C2F9005DCF1B /* VehicleTableViewController.swift in Sources */,
+				49F2501823549F6100956EC5 /* VehicleTableViewCell.swift in Sources */,
+				4954E30B2353C17B005DCF1B /* Vehicle.swift in Sources */,
+				493EF6AD2353C5BE00058590 /* ExtensionVehicleTableViewController.swift in Sources */,
 				49AEBD1F23538A570019F942 /* AppDelegate.swift in Sources */,
 				49AEBD2123538A570019F942 /* SceneDelegate.swift in Sources */,
+				49777BC92354894600BF0C19 /* StoreService.swift in Sources */,
+				49F2501B2354A4B000956EC5 /* VehicleEditInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +474,7 @@
 		};
 		49AEBD3023538A580019F942 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80A1FC999CE8A178973A343 /* Pods-FocusApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +493,7 @@
 		};
 		49AEBD3123538A580019F942 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DF46BDC87C1CE7DE47D2E3 /* Pods-FocusApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
