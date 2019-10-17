@@ -11,12 +11,13 @@ import UIKit
 final class VehicleTableViewController: UIViewController {
     
     let cellIdentifier = "vehicleCell"
+    let editVCIdentifier = "VehicleEditViewController"
     @IBOutlet weak var vehicleList: UITableView!
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
-        // open view for info input - good idea to create a popover view here
-        // add to array and realm transaction
-        // reload tableview data
+        let creationVC = storyboard?.instantiateViewController(withIdentifier: editVCIdentifier) as! VehicleEditViewController
+        creationVC.isNewVehicleCreation = true
+        navigationController?.pushViewController(creationVC, animated: true)
     }
     
     var vehicles = [Vehicle]()
@@ -24,6 +25,10 @@ final class VehicleTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         let defaults = UserDefaults.standard
         if defaults.object(forKey: "FirstLaunch") == nil {
             firstInitialization()
@@ -37,7 +42,9 @@ final class VehicleTableViewController: UIViewController {
             }
             vehicles = result
         }
-        
+        DispatchQueue.main.async {
+            self.vehicleList.reloadData()
+        }
     }
     
     func firstInitialization() {

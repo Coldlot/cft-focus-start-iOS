@@ -44,8 +44,12 @@ extension VehicleTableViewController: UITableViewDelegate {
         
         return UISwipeActionsConfiguration(actions: [deleteAction])
     }
-    
+    //MARK: - Seque to Edit Info ViewController
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let editVC = storyboard?.instantiateViewController(identifier: editVCIdentifier) as! VehicleEditViewController
+        editVC.vehicle = self.vehicles[indexPath.row]
+        editVC.title = "Edit Vehicle Info"
+        navigationController?.pushViewController(editVC, animated: true)
     }
 }

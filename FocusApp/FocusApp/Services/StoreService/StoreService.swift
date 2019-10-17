@@ -12,11 +12,19 @@ import RealmSwift
 final class StoreService {
     static let shared = StoreService()
     
-    private var realm: Realm {
+    private  var realm: Realm {
         guard let realm = try? Realm() else {
             fatalError("Can't initialize Realm")
         }
         return realm
+    }
+    
+    func beginTransaction() {
+        realm.beginWrite()
+    }
+    
+    func commitTransaction() {
+        try? realm.commitWrite()
     }
     
     func getAllVehicles() -> [Vehicle]? {
@@ -39,7 +47,6 @@ final class StoreService {
             realm.delete(vehicle)
         }
     }
-    
 }
 
 //MARK: - Extension of Results

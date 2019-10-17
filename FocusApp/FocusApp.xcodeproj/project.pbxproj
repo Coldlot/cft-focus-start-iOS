@@ -17,7 +17,7 @@
 		49AEBD2823538A580019F942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AEBD2723538A580019F942 /* Assets.xcassets */; };
 		49AEBD2B23538A580019F942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AEBD2923538A580019F942 /* LaunchScreen.storyboard */; };
 		49F2501823549F6100956EC5 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2501723549F6100956EC5 /* VehicleTableViewCell.swift */; };
-		49F2501B2354A4B000956EC5 /* VehicleEditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2501A2354A4B000956EC5 /* VehicleEditInfoViewController.swift */; };
+		49F2501B2354A4B000956EC5 /* VehicleEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2501A2354A4B000956EC5 /* VehicleEditViewController.swift */; };
 		A7583068A91D67316613E33D /* Pods_FocusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F65551EFC7A41FA8CDEA4D5 /* Pods_FocusApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		49AEBD2A23538A580019F942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49AEBD2C23538A580019F942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49F2501723549F6100956EC5 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
-		49F2501A2354A4B000956EC5 /* VehicleEditInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEditInfoViewController.swift; sourceTree = "<group>"; };
+		49F2501A2354A4B000956EC5 /* VehicleEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEditViewController.swift; sourceTree = "<group>"; };
 		7F65551EFC7A41FA8CDEA4D5 /* Pods_FocusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF46BDC87C1CE7DE47D2E3 /* Pods-FocusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusApp.release.xcconfig"; path = "Target Support Files/Pods-FocusApp/Pods-FocusApp.release.xcconfig"; sourceTree = "<group>"; };
 		C80A1FC999CE8A178973A343 /* Pods-FocusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusApp.debug.xcconfig"; path = "Target Support Files/Pods-FocusApp/Pods-FocusApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		4954E30C2353C2B7005DCF1B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				49F250192354A49400956EC5 /* VehicleEditInfoViewController */,
+				49F250192354A49400956EC5 /* VehicleEditViewController */,
 				4954E3112353C33F005DCF1B /* VehicleTableViewController */,
 			);
 			path = ViewControllers;
@@ -185,12 +185,12 @@
 			path = VehicleTableViewCell;
 			sourceTree = "<group>";
 		};
-		49F250192354A49400956EC5 /* VehicleEditInfoViewController */ = {
+		49F250192354A49400956EC5 /* VehicleEditViewController */ = {
 			isa = PBXGroup;
 			children = (
-				49F2501A2354A4B000956EC5 /* VehicleEditInfoViewController.swift */,
+				49F2501A2354A4B000956EC5 /* VehicleEditViewController.swift */,
 			);
-			path = VehicleEditInfoViewController;
+			path = VehicleEditViewController;
 			sourceTree = "<group>";
 		};
 		A925C7F0A3C134629B2ABC20 /* Pods */ = {
@@ -332,7 +332,7 @@
 				49AEBD1F23538A570019F942 /* AppDelegate.swift in Sources */,
 				49AEBD2123538A570019F942 /* SceneDelegate.swift in Sources */,
 				49777BC92354894600BF0C19 /* StoreService.swift in Sources */,
-				49F2501B2354A4B000956EC5 /* VehicleEditInfoViewController.swift in Sources */,
+				49F2501B2354A4B000956EC5 /* VehicleEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
