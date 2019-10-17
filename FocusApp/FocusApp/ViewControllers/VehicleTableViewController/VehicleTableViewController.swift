@@ -17,6 +17,7 @@ final class VehicleTableViewController: UIViewController {
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         let creationVC = storyboard?.instantiateViewController(withIdentifier: editVCIdentifier) as! VehicleEditViewController
         creationVC.isNewVehicleCreation = true
+        creationVC.title = "Create a new Vehicle"
         navigationController?.pushViewController(creationVC, animated: true)
     }
     
