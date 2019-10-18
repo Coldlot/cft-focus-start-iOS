@@ -10,6 +10,7 @@ import UIKit
 
 class VehicleTableViewCell: UITableViewCell {
 
+    static let id = "vehicleCell"
     
     @IBOutlet weak var photoView: UIImageView!
     @IBOutlet weak var modelLabel: UILabel!

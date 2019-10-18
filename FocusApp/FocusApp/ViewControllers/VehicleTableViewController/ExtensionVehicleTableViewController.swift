@@ -16,7 +16,7 @@ extension VehicleTableViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! VehicleTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: VehicleTableViewCell.id, for: indexPath) as! VehicleTableViewCell
         let vehicle = vehicles[indexPath.row]
         cell.modelLabel.text = vehicle.model
         cell.vendorLabel.text = vehicle.vendor
@@ -45,9 +45,10 @@ extension VehicleTableViewController: UITableViewDelegate {
         return UISwipeActionsConfiguration(actions: [deleteAction])
     }
     //MARK: - Seque to Edit Info ViewController
+    //TODO: - Create NevigationService for that
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let editVC = storyboard?.instantiateViewController(identifier: editVCIdentifier) as! VehicleEditViewController
+        let editVC = storyboard?.instantiateViewController(identifier: VehicleEditViewController.id) as! VehicleEditViewController
         editVC.vehicle = self.vehicles[indexPath.row]
         editVC.title = "Edit Vehicle Info"
         navigationController?.pushViewController(editVC, animated: true)

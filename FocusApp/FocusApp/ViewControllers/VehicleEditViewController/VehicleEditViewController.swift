@@ -15,6 +15,8 @@ final class VehicleEditViewController: UIViewController {
     @IBOutlet weak var vendorEdit: UITextField!
     @IBOutlet weak var bodyTypeEdit: UITextField!
     
+    static let id = "VehicleEditViewController"
+    
     var vehicle: Vehicle?
     var isNewVehicleCreation = false
     

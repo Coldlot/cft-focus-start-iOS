@@ -10,12 +10,12 @@ import UIKit
 
 final class VehicleTableViewController: UIViewController {
     
-    let cellIdentifier = "vehicleCell"
-    let editVCIdentifier = "VehicleEditViewController"
+    
+    
     @IBOutlet weak var vehicleList: UITableView!
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
-        let creationVC = storyboard?.instantiateViewController(withIdentifier: editVCIdentifier) as! VehicleEditViewController
+        let creationVC = storyboard?.instantiateViewController(withIdentifier: VehicleEditViewController.id) as! VehicleEditViewController
         creationVC.isNewVehicleCreation = true
         creationVC.title = "Create a new Vehicle"
         navigationController?.pushViewController(creationVC, animated: true)
