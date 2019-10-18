@@ -45,7 +45,6 @@ extension VehicleTableViewController: UITableViewDelegate {
         return UISwipeActionsConfiguration(actions: [deleteAction])
     }
     //MARK: - Seque to Edit Info ViewController
-    //TODO: - Create NevigationService for that
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let editVC = storyboard?.instantiateViewController(identifier: VehicleEditViewController.id) as! VehicleEditViewController
